@@ -4,7 +4,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from chat import get_response
 
-# Download NLTK data if not found
 try:
     nltk.data.find("tokenizers/punkt")
 except LookupError:
