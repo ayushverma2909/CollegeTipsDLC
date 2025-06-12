@@ -28,7 +28,6 @@ class Chatbox {
   toggleState(chatbox) {
     this.state = !this.state;
 
-    // show or hides the box
     if (this.state) {
       chatbox.classList.add("chatbox--active");
     } else {
@@ -47,25 +46,32 @@ class Chatbox {
     this.messages.push(msg1);
     // https://api.render.com/deploy/srv-d1571jbe5dus739b1k0g?key=OkO-9XmVgb8
     fetch("https://collegetipsdlc.onrender.com/predict", {
-      method: "POST",
-      body: JSON.stringify({ message: text1 }),
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((r) => r.json())
-      .then((r) => {
-        let msg2 = { name: "Ayush", message: r.answer };
-        this.messages.push(msg2);
-        this.updateChatText(chatbox);
-        textField.value = "";
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        this.updateChatText(chatbox);
-        textField.value = "";
-      });
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ message: text1 }),
+})
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Server responded with status " + response.status);
+    }
+    return response.json();
+  })
+  .then((r) => {
+    let msg2 = { name: "Ayush", message: r.answer || "No answer from server." };
+    this.messages.push(msg2);
+    this.updateChatText(chatbox);
+    textField.value = "";
+  })
+  .catch((error) => {
+    console.error("Fetch error:", error);
+    let msg2 = { name: "Ayush", message: " Server error. Please try again later." };
+    this.messages.push(msg2);
+    this.updateChatText(chatbox);
+    textField.value = "";
+  });
+
   }
 
   updateChatText(chatbox) {
