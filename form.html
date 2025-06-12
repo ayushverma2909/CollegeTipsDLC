@@ -80,7 +80,7 @@
           placeholder="Your Message / आपका संदेश"
           required
         ></textarea>
-        <button type="submit" data-en="Send Message" data-hi="संदेश भेजें">
+        <button type="submit" data-en="Send Message" data-hi="संदेश भेजें" onclick="alerting()">
           Send Message
         </button>
       </form>
@@ -110,6 +110,12 @@
 
       function goBack() {
         window.location.href = "index.html";
+      }
+      function alerting() {
+        const message = document.getElementById("message").value;
+        if (message.trim() !== "") {
+          alert("Your message has been sent.");
+        }
       }
 
       function toggleSidebar() {
