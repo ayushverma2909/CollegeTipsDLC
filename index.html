@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Literacy Campaign | Gift to Parents</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="ChatBot/static/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">📱 DigiParents</div>
+        <div class="nav-right">
+          <nav class="nav-links desktop-only">
+            <a href="#features">Features</a>
+            <a href="#faq">FAQ</a>
+            <a href="form.html">Feedback</a>
+          </nav>
+        </div>
+        <div class="lang-toggle desktop-only">
+          <button onclick="switchLanguage('en')" class="lang-btn active">
+            English
+          </button>
+          <button onclick="switchLanguage('hi')" class="lang-btn">हिंदी</button>
+        </div>
+        <div class="hamburger" onclick="toggleSidebar()">☰</div>
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+    <div class="sidebar" id="mobileSidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()"
+        >&times;</a
+      >
+      <a href="index.html" onclick="closeSidebar()">Features</a>
+      <a href="index.html" onclick="closeSidebar()">FAQ</a>
+      <a href="form.html" onclick="closeSidebar()">Feedback</a>
+      <div class="sidebar-lang">
+        <button onclick="switchLanguage('en')" class="lang-btn active">
+          English
+        </button>
+        <button onclick="switchLanguage('hi')" class="lang-btn">हिंदी</button>
+      </div>
+    </div>
+
+    <section id="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1
+          data-en="🎁 Gift Digital Literacy to Your Parents"
+          data-hi="🎁 अपने माता-पिता को डिजिटल साक्षरता उपहार में दें"
+        >
+          🎁 Gift Digital Literacy to Your Parents
+        </h1>
+
+        <p
+          data-en="Maa‑Babuji, ab Digital India ke asli nagrik banne waale hain! 😎📱"
+          data-hi="माँ-बाबूजी, अब डिजिटल इंडिया के असली नागरिक बनने वाले हैं! 😎📱"
+        >
+          Maa‑Babuji, ab Digital India ke asli nagrik banne waale hain! 😎📱
+        </p>
+
+        <button
+          id="hero-cta"
+          data-en="Gift the Course Now!"
+          data-hi="कोर्स अभी उपहार दें!"
+        >
+          Gift the Course Now!
+        </button>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2 data-en="What Will They Learn?" data-hi="वे क्या सीखेंगे?">
+          What Will They Learn?
+        </h2>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="https://imgs.search.brave.com/eedfNfwo1sXIqA8SA0aYpljton_D3vdjjvD63Vv098M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzMwLzIvcGF5dG0t/bG9nby1wbmdfc2Vl/a2xvZ28tMzA1NTQ5/LnBuZw"
+              alt="Paytm"
+            />
+            <h3 data-en="Paytm & UPI" data-hi="पेटीएम और यूपीआई">
+              Paytm & UPI
+            </h3>
+            <p
+              data-en="Send money, receive, pay bills, bokaute safely online."
+              data-hi="पैसे भेजें, प्राप्त करें, बिल चुकाएं, ऑनलाइन सुरक्षित लेनदेन करें।"
+            >
+              Send money, receive, pay bills, bokaute safely online.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://imgs.search.brave.com/O_Nqr1z4K4ACk31A68xyNAWSyJFAnnXp6sdXyrx64U4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzMwLzIvd2hhdHNh/cHAtbG9nby1wbmdf/c2Vla2xvZ28tMzA1/NDQwLnBuZz92PTE5/NjMzNjkyOTEwNzAz/NTgyMzI"
+              alt="WhatsApp"
+            />
+            <h3 data-en="WhatsApp Magic" data-hi="व्हाट्सएप जादू">
+              WhatsApp Magic
+            </h3>
+            <p
+              data-en="Avoid forwarding scams, voice calls, group chat mastery."
+              data-hi="फॉरवर्ड स्कैम से बचें, वॉयस कॉल और ग्रुप चैट की जानकारी पाएं।"
+            >
+              Avoid forwarding scams, voice calls, group chat mastery.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://imgs.search.brave.com/-z8EsdvNBpa1oLNVHKYQ2EwwyTcxl6cFU3NhOcI17cg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE4/LzAxL2dvb2dsZS1t/YXBzLWxvZ28tMC5w/bmc"
+              alt="Maps"
+            />
+            <h3 data-en="Google Maps" data-hi="गूगल मैप्स">Google Maps</h3>
+            <p
+              data-en="Locate sabziwala, shop safely, find best routes."
+              data-hi="सब्ज़ीवाले को खोजें, सुरक्षित खरीदारी करें, और सही रास्ता पाएं।"
+            >
+              Locate sabziwala, shop safely, find best routes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slideshow">
+      <div class="container">
+        <h2>Real Parent Stories</h2>
+        <div class="slides">
+          <div class="slide active">
+            <img
+              src="https://imgs.search.brave.com/Msx71iRUzA10_lXNOlVjcYjDbgcs0iI0QMonrjWaBhw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi95b3Vu/Zy1pbmRpYW4td29t/YW4tbWFuYWdlci13/ZXN0ZXJuLWZvcm1h/bHMtc2hpcnQtaGVs/cGluZy1vbGQtaW5k/aWFuLW1hbi1sYXB0/b3AtcHJvbW90aW5n/LWRpZ2l0YWwtbGl0/ZXJhY3ktZWxkZXJs/eS0xODkzMzA4Mjgu/anBn"
+              alt="Grandma Meme"
+            />
+            <p>"Maine khud UPI se sabzi ka paisa diya!" — Dadi</p>
+          </div>
+          <div class="slide">
+            <img
+              src="https://imgs.search.brave.com/_F92e-pYYEmUuZtpm7-aGm7LOPcO3aRFxB62bB6waEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hZHVs/dC1saXRlcmFjeS0y/MDY5NjQxMC5qcGc"
+              alt="Dad Meme"
+            />
+            <p>"Phishing? Ab mujhe pata hai kya hota hai!" — Babuji</p>
+          </div>
+          <div class="slide">
+            <img
+              src="https://imgs.search.brave.com/MhaaNBRz9gU9KkWPBX6m6bYX7IlNtIKCYYdyuLt60F4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMud2Vmb3J1bS5v/cmcvYXJ0aWNsZS9p/bWFnZS9QeldhRlp4/S1d6Z0RIeHdtSnBz/LTVhOUNkakdfVTBu/a05wd2pNbm5NVmdz/LmpwZw"
+              alt="Mom Meme"
+            />
+            <p>"Beta, aaj Reel bhi bana dala maine!" — Maa</p>
+          </div>
+        </div>
+        <div class="slide-controls">
+          <button id="prev-slide">◀</button>
+          <button id="next-slide">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <h2
+          class="faq-text"
+          data-en="FAQ — Questions But 'Maa-Ji, Ye Kaise Use Kare?' Ka Jawab"
+          data-hi="सामान्य प्रश्न — सवाल जो 'माँ जी, ये कैसे यूज़ करें?' जैसे होते हैं"
+        >
+          FAQ — Questions But 'Maa-Ji, Ye Kaise Use Kare?' Ka Jawab
+          <button
+            class="speak-btn"
+            onclick="speakText(this)"
+            data-en="FAQ — Questions But 'Maa-Ji, Ye Kaise Use Kare?' Ka Jawab"
+            data-hi="सामान्य प्रश्न — सवाल जो 'माँ जी, ये कैसे यूज़ करें?' जैसे होते हैं"
+          >
+            🔊
+          </button>
+        </h2>
+
+        <div class="accordion">
+          <div class="item">
+            <button
+              class="question"
+              data-en="What if they forget passwords?"
+              data-hi="अगर वे पासवर्ड भूल जाएं तो क्या करें?"
+              onclick="speakText(this)"
+            >
+              What if they forget passwords?
+              <span
+                onclick="speakText(this)"
+                class="speak-btn"
+                data-en="What if they forget passwords?"
+                data-hi="अगर वे पासवर्ड भूल जाएं तो क्या करें?"
+                >🔊</span
+              >
+            </button>
+            <div class="answer">
+              <p
+                data-en="No tension — we teach password managers and recovery tips step-by-step!"
+                data-hi="कोई टेंशन नहीं — हम पासवर्ड मैनेजर और रिकवरी टिप्स स्टेप-बाय-स्टेप सिखाते हैं!"
+              >
+                No tension — we teach password managers and recovery tips
+                step-by-step!
+                <span
+                  onclick="speakText(this)"
+                  class="speak-btn"
+                  data-en="No tension — we teach password managers and recovery tips step-by-step!"
+                  data-hi="कोई टेंशन नहीं — हम पासवर्ड मैनेजर और रिकवरी टिप्स स्टेप-बाय-स्टेप सिखाते हैं!"
+                  >🔊</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <button
+              class="question"
+              data-en="Is internet safe?"
+              data-hi="क्या इंटरनेट सुरक्षित है?"
+              onclick="speakText(this)"
+            >
+              Is internet safe?
+              <span
+                onclick="speakText(this)"
+                class="speak-btn"
+                data-en="Is internet safe?"
+                data-hi="क्या इंटरनेट सुरक्षित है?"
+                >🔊</span
+              >
+            </button>
+            <div class="answer">
+              <p
+                data-en="Yes! We show them how to spot scams, fake news, phishing links."
+                data-hi="हाँ! हम उन्हें स्कैम, फेक न्यूज़, और फिशिंग लिंक पहचानना सिखाते हैं।"
+              >
+                Yes! We show them how to spot scams, fake news, phishing links.
+                <span
+                  onclick="speakText(this)"
+                  class="speak-btn"
+                  data-en="Yes! We show them how to spot scams, fake news, phishing links."
+                  data-hi="हाँ! हम उन्हें स्कैम, फेक न्यूज़, और फिशिंग लिंक पहचानना सिखाते हैं।"
+                  >🔊</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <button
+              class="question"
+              data-en="Is it just for Apps?"
+              data-hi="क्या ये सिर्फ ऐप्स के लिए है?"
+              onclick="speakText(this)"
+            >
+              Is it just for Apps?
+              <span
+                onclick="speakText(this)"
+                class="speak-btn"
+                data-en="Is it just for Apps?"
+                data-hi="क्या ये सिर्फ ऐप्स के लिए है?"
+                >🔊</span
+              >
+            </button>
+            <div class="answer">
+              <p
+                data-en="No! Also covers social media, memes, reels, viral content in local language."
+                data-hi="नहीं! यह सोशल मीडिया, मीम्स, रील्स, और लोकल भाषा में वायरल कंटेंट भी कवर करता है।"
+              >
+                No! Also covers social media, memes, reels, viral content in
+                local language.
+                <span
+                  onclick="speakText(this)"
+                  class="speak-btn"
+                  data-en="No! Also covers social media, memes, reels, viral content in local language."
+                  data-hi="नहीं! यह सोशल मीडिया, मीम्स, रील्स, और लोकल भाषा में वायरल कंटेंट भी कवर करता है।"
+                  >🔊</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="container">
+        <h2
+          data-en="Ready to transform your parents into Digital Ninjas?"
+          data-hi="तैयार हैं अपने माता-पिता को डिजिटल निंजा बनाने के लिए?"
+        >
+          Ready to transform your parents into Digital Ninjas?
+        </h2>
+        <button
+          id="cta-btn"
+          data-en="Gift the Course Now"
+          data-hi="कोर्स अभी गिफ्ट करें"
+        >
+          Gift the Course Now
+        </button>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img
+                src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+                alt="image"
+              />
+            </div>
+            <div class="chatbox__content--header">
+              <h4
+                class="chatbox__heading--header"
+                data-en="Chat support"
+                data-hi="चैट सहायता"
+              >
+                Chat support
+              </h4>
+              <p
+                class="chatbox__description--header"
+                data-en="Hi. My name is Lisa. How can I help you?"
+                data-hi="नमस्ते, मेरा नाम लिसा है। मैं आपकी कैसे मदद कर सकती हूँ?"
+              >
+                Hi. My name is Lisa. How can I help you?
+              </p>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input
+              type="text"
+              placeholder="Write a message..."
+              data-en="Write a message..."
+              data-hi="संदेश लिखें..."
+            />
+            <button
+              class="chatbox__send--footer send__button"
+              data-en="Send"
+              data-hi="भेजें"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <button><img src="ChatBot/static/images/chatbox-icon.svg" /></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="floating-controls">
+      <button onclick="adjustFontSize(1)" class="lang-btn">A+</button>
+      <button onclick="adjustFontSize(-1)" class="lang-btn">A−</button>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p
+          data-en="© 2025 Digital Literacy Campaign | Made with ❤️ for families"
+          data-hi="© 2025 डिजिटल साक्षरता अभियान | परिवारों के लिए ❤️ से बनाया गया"
+        >
+          © 2025 Digital Literacy Campaign | Made with ❤️ for families
+        </p>
+        <small
+          data-en="Images used for illustration. Terms apply."
+          data-hi="छवियां केवल उदाहरण के लिए हैं। नियम लागू होते हैं।"
+        >
+          Images used for illustration. Terms apply.
+        </small>
+      </div>
+    </footer>
+
+    <script>
+      const $SCRIPT_ROOT = "";
+    </script>
+    <script type="text/javascript" src="ChatBot/static/app.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

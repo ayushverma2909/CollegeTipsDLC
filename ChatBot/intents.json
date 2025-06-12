@@ -1,0 +1,1674 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good day", "Hii"],
+      "responses": [
+        "Hello! How can I help you learn digital tools today?",
+        "Hi there! Ask me anything about WhatsApp, Paytm, or Google Maps.",
+        "Hey! Ready to become digitally savvy? What do you want to learn?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks, bye"],
+      "responses": [
+        "Goodbye! Keep exploring digital tools!",
+        "See you later! Stay safe online!",
+        "Thanks for chatting!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime! Keep learning."
+      ]
+    },
+
+    {
+      "tag": "whatsapp_send_photo",
+      "patterns": [
+        "How do I send a photo on WhatsApp?",
+        "Send photo on WhatsApp",
+        "How to share pictures on WhatsApp?"
+      ],
+      "responses": [
+        "To send a photo on WhatsApp: 1) Open a chat. 2) Tap the attachment icon (paperclip). 3) Choose 'Gallery' or 'Camera'. 4) Select or take a photo. 5) Tap send.",
+        "Sharing photos is easy! Open chat > tap paperclip icon > select photo > send."
+      ]
+    },
+
+    {
+      "tag": "whatsapp_create_group",
+      "patterns": [
+        "How to create a group on WhatsApp?",
+        "Make WhatsApp group",
+        "WhatsApp group creation steps"
+      ],
+      "responses": [
+        "To create a WhatsApp group: 1) Open WhatsApp. 2) Tap the 'New Chat' icon. 3) Select 'New Group'. 4) Choose participants. 5) Name the group and tap 'Create'.",
+        "Creating groups helps you chat with multiple people at once. Try the steps now!"
+      ]
+    },
+
+    {
+      "tag": "paytm_send_money",
+      "patterns": [
+        "How to send money using Paytm?",
+        "Paytm money transfer",
+        "Send money on Paytm"
+      ],
+      "responses": [
+        "To send money via Paytm: 1) Open Paytm app. 2) Tap 'Send'. 3) Enter recipient's mobile number or scan QR code. 4) Enter amount and tap 'Send'.",
+        "Paytm makes money transfer simple — open app > send money > enter details > confirm."
+      ]
+    },
+
+    {
+      "tag": "paytm_add_money",
+      "patterns": [
+        "How to add money to Paytm wallet?",
+        "Add balance in Paytm",
+        "Recharge Paytm wallet"
+      ],
+      "responses": [
+        "To add money: 1) Open Paytm app. 2) Tap 'Add Money'. 3) Enter amount. 4) Choose payment method. 5) Confirm transaction.",
+        "Keep your Paytm wallet topped up by adding money through your bank or card."
+      ]
+    },
+
+    {
+      "tag": "google_maps_navigation",
+      "patterns": [
+        "How to use Google Maps for navigation?",
+        "Google Maps directions",
+        "Use Google Maps to find route"
+      ],
+      "responses": [
+        "To navigate with Google Maps: 1) Open the app. 2) Type your destination in the search bar. 3) Tap 'Directions'. 4) Choose transport mode. 5) Tap 'Start' to begin navigation.",
+        "Google Maps guides you step-by-step. Just enter where you want to go and hit 'Start'."
+      ]
+    },
+
+    {
+      "tag": "google_maps_save_location",
+      "patterns": [
+        "How to save a location in Google Maps?",
+        "Save place on Google Maps",
+        "Bookmark location"
+      ],
+      "responses": [
+        "To save a location: 1) Search for the place. 2) Tap on the location name at the bottom. 3) Tap 'Save'. 4) Choose a list like 'Favorites'.",
+        "Save important spots for quick access later by bookmarking them."
+      ]
+    },
+
+    {
+      "tag": "faq_general",
+      "patterns": [
+        "What is WhatsApp?",
+        "What is Paytm?",
+        "What is Google Maps?",
+        "Explain WhatsApp",
+        "Explain Paytm",
+        "Explain Google Maps"
+      ],
+      "responses": [
+        "WhatsApp is a free messaging app to chat, call, and share media with friends and family.",
+        "Paytm is a digital wallet and payment platform for easy online transactions.",
+        "Google Maps helps you find places, get directions, and explore the world around you."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        " ",
+        "I don't know",
+        "Can you help me?",
+        "What do I do?"
+      ],
+      "responses": [
+        "Sorry, I didn't get that. Can you please ask something else?",
+        "I'm here to help with WhatsApp, Paytm, or Google Maps questions!",
+        "Could you please rephrase your question?"
+      ]
+    },
+    {
+      "tag": "whatsapp_video_call",
+      "patterns": [
+        "How to make a video call on WhatsApp?",
+        "WhatsApp video call steps",
+        "Make video call using WhatsApp"
+      ],
+      "responses": [
+        "To make a video call: 1) Open a chat with the person. 2) Tap the video camera icon on the top right. 3) Wait for them to answer.",
+        "Video calling is easy on WhatsApp — open chat and tap the video camera icon."
+      ]
+    },
+    {
+      "tag": "whatsapp_status_post",
+      "patterns": [
+        "How to post status on WhatsApp?",
+        "Share status on WhatsApp",
+        "WhatsApp story steps"
+      ],
+      "responses": [
+        "To post a status: 1) Open WhatsApp. 2) Go to the 'Status' tab. 3) Tap the 'My Status' icon. 4) Add photo, video, or text. 5) Tap send.",
+        "Keep your friends updated by posting photos or text on your WhatsApp status."
+      ]
+    },
+    {
+      "tag": "paytm_pay_bill",
+      "patterns": [
+        "How to pay bills using Paytm?",
+        "Pay electricity bill Paytm",
+        "Mobile recharge on Paytm"
+      ],
+      "responses": [
+        "To pay bills: 1) Open Paytm app. 2) Select 'Recharge & Pay Bills'. 3) Choose bill type (Electricity, Mobile, etc.). 4) Enter details and amount. 5) Confirm payment.",
+        "Paytm helps you pay your bills easily — just choose the service and pay!"
+      ]
+    },
+    {
+      "tag": "paytm_cashback",
+      "patterns": [
+        "Does Paytm offer cashback?",
+        "How to get Paytm cashback?",
+        "Paytm offers"
+      ],
+      "responses": [
+        "Paytm often provides cashback and offers on payments. Keep an eye on the app’s ‘Offers’ section to save more!",
+        "Check the 'Offers' tab in Paytm app regularly for exciting cashback deals."
+      ]
+    },
+    {
+      "tag": "google_maps_offline",
+      "patterns": [
+        "How to use Google Maps offline?",
+        "Download offline maps Google Maps",
+        "Offline navigation Google Maps"
+      ],
+      "responses": [
+        "To use offline maps: 1) Open Google Maps. 2) Search for the area or city. 3) Tap the name or address. 4) Select 'Download' to save the map offline.",
+        "Offline maps help you navigate without internet. Download the area before you travel."
+      ]
+    },
+    {
+      "tag": "google_maps_traffic",
+      "patterns": [
+        "How to check traffic on Google Maps?",
+        "Traffic info Google Maps",
+        "Is there traffic on my route?"
+      ],
+      "responses": [
+        "Google Maps shows live traffic with colored lines: green (no traffic), orange (moderate), red (heavy). Open your route and check the colors to plan your trip.",
+        "Check traffic conditions on your route before you start driving by looking at the colored lines on Google Maps."
+      ]
+    },
+    {
+      "tag": "digital_security_basics",
+      "patterns": [
+        "How to stay safe online?",
+        "Digital security tips",
+        "Protect myself on internet"
+      ],
+      "responses": [
+        "Some basic digital safety tips: 1) Use strong passwords. 2) Don’t share personal info with strangers. 3) Avoid clicking unknown links. 4) Keep your apps updated.",
+        "Stay safe online by using strong passwords, avoiding suspicious links, and updating your apps regularly."
+      ]
+    },
+    {
+      "tag": "how_to_create_account",
+      "patterns": [
+        "How to create WhatsApp account?",
+        "Create Paytm account steps",
+        "Sign up for Google Maps"
+      ],
+      "responses": [
+        "To create WhatsApp account: 1) Download WhatsApp from Play Store or App Store. 2) Open app and verify your phone number. 3) Set your profile name and photo.",
+        "To create Paytm account: 1) Download Paytm app. 2) Open and sign up using your mobile number. 3) Verify via OTP and set a password.",
+        "Google Maps uses your Google account. If you don’t have one, create it at accounts.google.com and log in to Maps."
+      ]
+    },
+    {
+      "tag": "troubleshooting",
+      "patterns": [
+        "WhatsApp not sending messages",
+        "Paytm payment failed",
+        "Google Maps not loading"
+      ],
+      "responses": [
+        "If WhatsApp messages aren’t sending, check your internet connection and try restarting the app.",
+        "For Paytm payment failures, ensure your wallet/bank balance is sufficient and check your internet connection.",
+        "If Google Maps is slow or not loading, try closing and reopening the app or check your internet."
+      ]
+    },
+    {
+      "tag": "general_help",
+      "patterns": [
+        "How do I use digital apps?",
+        "I need help with mobile apps",
+        "Teach me how to use WhatsApp, Paytm, Google Maps"
+      ],
+      "responses": [
+        "I’m here to help you learn WhatsApp, Paytm, and Google Maps step-by-step! Just ask me any question or say what you want to learn.",
+        "Let’s start! Tell me which app you want to learn about or what you want to do."
+      ]
+    },
+
+    {
+      "tag": "whatsapp_group_create",
+      "patterns": [
+        "How to create a WhatsApp group?",
+        "Make a group on WhatsApp",
+        "WhatsApp group creation steps"
+      ],
+      "responses": [
+        "To create a WhatsApp group: 1) Open WhatsApp. 2) Go to the Chats tab. 3) Tap the 'New Group' option. 4) Select contacts to add. 5) Name your group and tap Create."
+      ]
+    },
+    {
+      "tag": "whatsapp_delete_message",
+      "patterns": [
+        "How to delete messages on WhatsApp?",
+        "Delete sent message WhatsApp",
+        "Remove message in WhatsApp chat"
+      ],
+      "responses": [
+        "To delete a message: 1) Tap and hold the message. 2) Select 'Delete'. 3) Choose 'Delete for Everyone' to remove from all chats or 'Delete for Me' for your chat only."
+      ]
+    },
+    {
+      "tag": "paytm_wallet_add_money",
+      "patterns": [
+        "How to add money to Paytm wallet?",
+        "Top-up Paytm wallet",
+        "Recharge Paytm wallet"
+      ],
+      "responses": [
+        "To add money: 1) Open Paytm app. 2) Tap 'Add Money'. 3) Enter the amount. 4) Choose payment method. 5) Confirm the payment."
+      ]
+    },
+    {
+      "tag": "paytm_send_money",
+      "patterns": [
+        "How to send money on Paytm?",
+        "Pay money to friend on Paytm",
+        "Transfer money Paytm steps"
+      ],
+      "responses": [
+        "To send money: 1) Open Paytm app. 2) Tap 'Send'. 3) Enter recipient’s phone number or scan QR code. 4) Enter amount. 5) Confirm payment."
+      ]
+    },
+    {
+      "tag": "google_maps_navigation",
+      "patterns": [
+        "How to navigate using Google Maps?",
+        "Turn-by-turn directions Google Maps",
+        "Use GPS on Google Maps"
+      ],
+      "responses": [
+        "To navigate: 1) Open Google Maps. 2) Enter your destination in the search bar. 3) Tap 'Directions'. 4) Choose your mode of transport. 5) Tap 'Start' to begin navigation."
+      ]
+    },
+    {
+      "tag": "google_maps_save_location",
+      "patterns": [
+        "How to save a place in Google Maps?",
+        "Bookmark location Google Maps",
+        "Add favorite place on Maps"
+      ],
+      "responses": [
+        "To save a location: 1) Open Google Maps. 2) Tap the location on the map or search for it. 3) Tap the name/address at the bottom. 4) Tap 'Save' and choose a list."
+      ]
+    },
+    {
+      "tag": "digital_literacy_importance",
+      "patterns": [
+        "Why is digital literacy important?",
+        "Benefits of learning digital tools",
+        "Why learn to use apps?"
+      ],
+      "responses": [
+        "Digital literacy helps you use technology confidently and safely. It opens up opportunities for education, work, communication, and much more!",
+        "Knowing digital tools lets you access services, stay connected, and be part of the digital world."
+      ]
+    },
+    {
+      "tag": "paytm_security",
+      "patterns": [
+        "How to keep Paytm account safe?",
+        "Paytm security tips",
+        "Protect Paytm wallet"
+      ],
+      "responses": [
+        "Keep your Paytm account secure by using a strong password, enabling two-factor authentication, and never sharing OTP or passwords with anyone."
+      ]
+    },
+    {
+      "tag": "whatsapp_privacy_settings",
+      "patterns": [
+        "How to change WhatsApp privacy settings?",
+        "WhatsApp last seen privacy",
+        "Hide profile picture WhatsApp"
+      ],
+      "responses": [
+        "To change privacy settings: 1) Open WhatsApp. 2) Go to Settings > Privacy. 3) Adjust who can see your Last Seen, Profile Photo, About, and Status."
+      ]
+    },
+    {
+      "tag": "paytm_refund",
+      "patterns": [
+        "How to get refund on Paytm?",
+        "Paytm payment failed refund",
+        "Cancel Paytm transaction"
+      ],
+      "responses": [
+        "For refunds, check the transaction status in Paytm app. If failed, money usually returns to your wallet/bank within a few days. Contact Paytm support if delayed."
+      ]
+    },
+    {
+      "tag": "whatsapp_status_update",
+      "patterns": [
+        "How to update WhatsApp status?",
+        "Post a new status on WhatsApp",
+        "Change my WhatsApp status"
+      ],
+      "responses": [
+        "To update your WhatsApp status: 1) Open WhatsApp. 2) Go to the Status tab. 3) Tap 'My Status'. 4) Add a photo, video, or text. 5) Tap send to share it."
+      ]
+    },
+    {
+      "tag": "paytm_bill_payment",
+      "patterns": [
+        "How to pay bills using Paytm?",
+        "Pay electricity bill on Paytm",
+        "Can I pay my phone bill on Paytm?"
+      ],
+      "responses": [
+        "To pay bills: 1) Open Paytm app. 2) Tap 'Recharge & Pay Bills'. 3) Select the bill type (electricity, phone, etc.). 4) Enter details and amount. 5) Confirm payment."
+      ]
+    },
+    {
+      "tag": "google_maps_traffic_info",
+      "patterns": [
+        "How to check traffic on Google Maps?",
+        "Show traffic conditions in Maps",
+        "Is there traffic on my route?"
+      ],
+      "responses": [
+        "To check traffic: 1) Open Google Maps. 2) Tap Layers icon. 3) Enable 'Traffic'. 4) Traffic conditions will appear on the map in different colors."
+      ]
+    },
+    {
+      "tag": "whatsapp_backup_chat",
+      "patterns": [
+        "How to backup WhatsApp chats?",
+        "Save WhatsApp messages",
+        "WhatsApp chat backup steps"
+      ],
+      "responses": [
+        "To backup chats: 1) Open WhatsApp. 2) Go to Settings > Chats > Chat Backup. 3) Tap 'Back Up' to save your messages to Google Drive or iCloud."
+      ]
+    },
+    {
+      "tag": "paytm_upi_payment",
+      "patterns": [
+        "How to pay with UPI on Paytm?",
+        "UPI payment Paytm steps",
+        "Send money via UPI in Paytm"
+      ],
+      "responses": [
+        "To pay with UPI: 1) Open Paytm app. 2) Tap 'UPI Money Transfer'. 3) Enter recipient’s UPI ID or scan QR code. 4) Enter amount and confirm payment."
+      ]
+    },
+    {
+      "tag": "whatsapp_status_post",
+      "patterns": [
+        "How to post status on WhatsApp?",
+        "Share WhatsApp status",
+        "WhatsApp status update steps"
+      ],
+      "responses": [
+        "To post a WhatsApp status: 1) Open WhatsApp. 2) Go to the Status tab. 3) Tap 'My Status'. 4) Take a photo, video, or choose from gallery. 5) Add caption if you want and tap send."
+      ]
+    },
+    {
+      "tag": "whatsapp_voice_message",
+      "patterns": [
+        "How to send voice message on WhatsApp?",
+        "Record audio message WhatsApp",
+        "Send voice note on WhatsApp"
+      ],
+      "responses": [
+        "To send a voice message: 1) Open a chat. 2) Tap and hold the microphone icon. 3) Record your message. 4) Release to send."
+      ]
+    },
+    {
+      "tag": "paytm_check_balance",
+      "patterns": [
+        "How to check Paytm wallet balance?",
+        "Check wallet amount Paytm",
+        "Paytm balance check"
+      ],
+      "responses": [
+        "To check your Paytm balance: Open Paytm app, your wallet balance is shown on the home screen at the top."
+      ]
+    },
+    {
+      "tag": "paytm_bill_payment",
+      "patterns": [
+        "How to pay bills on Paytm?",
+        "Pay electricity bill using Paytm",
+        "Mobile recharge with Paytm"
+      ],
+      "responses": [
+        "To pay bills: 1) Open Paytm app. 2) Select 'Recharge & Pay Bills'. 3) Choose the bill type (Electricity, Mobile, etc.). 4) Enter details and amount. 5) Confirm payment."
+      ]
+    },
+    {
+      "tag": "google_maps_traffic",
+      "patterns": [
+        "How to check traffic on Google Maps?",
+        "Traffic updates Google Maps",
+        "See traffic on maps"
+      ],
+      "responses": [
+        "To see traffic: Open Google Maps, tap the layers icon, then enable 'Traffic' to view real-time traffic conditions."
+      ]
+    },
+    {
+      "tag": "google_maps_offline",
+      "patterns": [
+        "How to use Google Maps offline?",
+        "Download maps for offline use",
+        "Google Maps without internet"
+      ],
+      "responses": [
+        "To use offline: Open Google Maps, search your area, tap on the name/address, then select 'Download' to save the map for offline use."
+      ]
+    },
+    {
+      "tag": "digital_literacy_benefits",
+      "patterns": [
+        "Why learn digital skills?",
+        "Benefits of digital literacy",
+        "Importance of using apps"
+      ],
+      "responses": [
+        "Digital skills help you access information, stay connected, do online payments safely, and open doors to many opportunities in education and work."
+      ]
+    },
+    {
+      "tag": "whatsapp_backup_chat",
+      "patterns": [
+        "How to backup WhatsApp chats?",
+        "Save WhatsApp messages",
+        "WhatsApp chat backup steps"
+      ],
+      "responses": [
+        "To backup chats: 1) Open WhatsApp. 2) Go to Settings > Chats > Chat backup. 3) Tap 'Back Up' to save your chats to cloud storage."
+      ]
+    },
+    {
+      "tag": "paytm_link_bank_account",
+      "patterns": [
+        "How to link bank account in Paytm?",
+        "Add bank account Paytm",
+        "Connect bank with Paytm wallet"
+      ],
+      "responses": [
+        "To link your bank: Open Paytm app, go to 'Bank Accounts & Cards', tap 'Add Bank Account', and follow the steps to verify your account."
+      ]
+    },
+    {
+      "tag": "google_maps_share_location",
+      "patterns": [
+        "How to share location on Google Maps?",
+        "Send my location using Maps",
+        "Share live location Google Maps"
+      ],
+      "responses": [
+        "To share location: 1) Open Google Maps. 2) Tap the blue dot showing your location. 3) Select 'Share your location'. 4) Choose who to share with and for how long."
+      ]
+    },
+    {
+      "tag": "whatsapp_block_contact",
+      "patterns": [
+        "How to block someone on WhatsApp?",
+        "Stop messages from contact WhatsApp",
+        "Block number in WhatsApp"
+      ],
+      "responses": [
+        "To block a contact: Open the chat, tap the contact name, scroll down and select 'Block Contact'. Confirm to block."
+      ]
+    },
+    {
+      "tag": "paytm_cashback_offers",
+      "patterns": [
+        "How to get cashback on Paytm?",
+        "Paytm offers and discounts",
+        "Use Paytm coupons"
+      ],
+      "responses": [
+        "Check the 'Offers' section in Paytm app regularly to find cashback deals, coupons, and discounts available on payments and recharges."
+      ]
+    },
+    {
+      "tag": "google_maps_find_places",
+      "patterns": [
+        "How to find nearby places on Google Maps?",
+        "Search restaurants near me",
+        "Locate shops using Maps"
+      ],
+      "responses": [
+        "To find places nearby: Open Google Maps, tap 'Explore' or search for what you want (like restaurants). The map will show nearby options."
+      ]
+    },
+    {
+      "tag": "digital_literacy_safety",
+      "patterns": [
+        "How to stay safe online?",
+        "Internet safety tips",
+        "Protect personal data online"
+      ],
+      "responses": [
+        "Stay safe online by not sharing passwords, avoiding suspicious links, using strong passwords, and enabling two-factor authentication where possible."
+      ]
+    },
+    {
+      "tag": "whatsapp_video_call",
+      "patterns": [
+        "How to make a video call on WhatsApp?",
+        "WhatsApp video chat steps",
+        "Video call on WhatsApp"
+      ],
+      "responses": [
+        "To make a video call: Open a chat, tap the video camera icon at the top right to start a video call."
+      ]
+    },
+    {
+      "tag": "paytm_ticket_booking",
+      "patterns": [
+        "How to book tickets on Paytm?",
+        "Buy movie tickets using Paytm",
+        "Paytm bus ticket booking"
+      ],
+      "responses": [
+        "To book tickets: Open Paytm app, select 'Movies' or 'Bus Tickets', choose your show or route, pick seats, and complete payment."
+      ]
+    },
+    {
+      "tag": "google_maps_street_view",
+      "patterns": [
+        "What is Google Maps street view?",
+        "How to use street view?",
+        "See street images on Maps"
+      ],
+      "responses": [
+        "Street View lets you see real photos of streets. In Google Maps, drag the yellow Pegman icon onto the map to enter Street View mode."
+      ]
+    },
+    {
+      "tag": "whatsapp_change_profile_pic",
+      "patterns": [
+        "How to change WhatsApp profile picture?",
+        "Update WhatsApp DP",
+        "Change profile photo on WhatsApp"
+      ],
+      "responses": [
+        "To change your profile photo: Open WhatsApp, go to Settings, tap your profile picture, then tap the camera icon to choose a new photo."
+      ]
+    },
+    {
+      "tag": "paytm_scan_qr",
+      "patterns": [
+        "How to scan QR code on Paytm?",
+        "Use Paytm QR scanner",
+        "Paytm payment by scanning QR"
+      ],
+      "responses": [
+        "To scan QR code: Open Paytm app, tap the scan icon, point your camera at the QR code, and proceed with payment."
+      ]
+    },
+    {
+      "tag": "google_maps_report_issue",
+      "patterns": [
+        "How to report a problem on Google Maps?",
+        "Fix wrong info on Maps",
+        "Report map error Google Maps"
+      ],
+      "responses": [
+        "To report an issue: Open Google Maps, find the place or route, tap 'Suggest an edit' or 'Report a problem' and follow instructions."
+      ]
+    },
+    {
+      "tag": "digital_literacy_help_resources",
+      "patterns": [
+        "Where to learn digital skills?",
+        "Best websites to learn apps",
+        "Digital literacy resources"
+      ],
+      "responses": [
+        "You can learn digital skills on websites like DigitalIndia, Google Digital Garage, and many free tutorials on YouTube."
+      ]
+    },
+    {
+      "tag": "whatsapp_group_admin",
+      "patterns": [
+        "How to make someone admin in WhatsApp group?",
+        "WhatsApp group admin settings",
+        "Add admin to WhatsApp group"
+      ],
+      "responses": [
+        "To make admin: Open the group, tap group name, tap the member you want to promote, select 'Make Group Admin'."
+      ]
+    },
+    {
+      "tag": "paytm_set_up_wallet_password",
+      "patterns": [
+        "How to set wallet password on Paytm?",
+        "Secure Paytm wallet",
+        "Add password to Paytm wallet"
+      ],
+      "responses": [
+        "To set a wallet password: Open Paytm, go to Wallet settings, choose 'Set Wallet Password', and create a strong password."
+      ]
+    },
+    {
+      "tag": "google_maps_favorite_places",
+      "patterns": [
+        "How to mark favorite places on Google Maps?",
+        "Save places in Maps",
+        "Star locations on Google Maps"
+      ],
+      "responses": [
+        "To save favorites: Tap on a place, tap 'Save', and choose a list like Favorites or Want to go."
+      ]
+    },
+    {
+      "tag": "digital_literacy_device_usage",
+      "patterns": [
+        "How to use smartphone basics?",
+        "Learn smartphone features",
+        "Beginner phone usage tips"
+      ],
+      "responses": [
+        "Start by learning how to make calls, send messages, install apps, and use the camera. Practice regularly to get comfortable."
+      ]
+    },
+    {
+      "tag": "whatsapp_clear_chat",
+      "patterns": [
+        "How to clear WhatsApp chat?",
+        "Delete all messages in WhatsApp",
+        "Clear conversation on WhatsApp"
+      ],
+      "responses": [
+        "To clear chat: Open chat, tap the three dots menu, select 'More', then 'Clear chat'. Confirm to delete messages."
+      ]
+    },
+    {
+      "tag": "paytm_help_support",
+      "patterns": [
+        "How to contact Paytm support?",
+        "Paytm customer care",
+        "Need help from Paytm"
+      ],
+      "responses": [
+        "To contact Paytm support: Open the app, go to 'Help & Support', choose your issue, and contact via chat or call."
+      ]
+    },
+    {
+      "tag": "google_maps_change_route",
+      "patterns": [
+        "How to change route in Google Maps?",
+        "Choose different path on Maps",
+        "Avoid tolls on Google Maps"
+      ],
+      "responses": [
+        "To change route: After entering destination, tap 'Options' to avoid tolls or highways, or drag the route to change it."
+      ]
+    },
+    {
+      "tag": "digital_literacy_password_management",
+      "patterns": [
+        "How to manage passwords safely?",
+        "Password tips for beginners",
+        "Store passwords securely"
+      ],
+      "responses": [
+        "Use strong passwords, avoid reusing them, and consider a password manager app to store and generate passwords safely."
+      ]
+    },
+    {
+      "tag": "whatsapp_broadcast_message",
+      "patterns": [
+        "How to send broadcast message on WhatsApp?",
+        "WhatsApp message to many people",
+        "Send bulk messages on WhatsApp"
+      ],
+      "responses": [
+        "To send broadcast: Go to WhatsApp Chats, tap the three dots, select 'New broadcast', add contacts, and send your message."
+      ]
+    },
+    {
+      "tag": "whatsapp_restore_deleted_messages",
+      "patterns": [
+        "Can I recover deleted WhatsApp messages?",
+        "Restore lost WhatsApp chat",
+        "How to get back deleted WhatsApp texts?"
+      ],
+      "responses": [
+        "You can restore deleted WhatsApp messages if you have a recent backup. Uninstall and reinstall WhatsApp, then choose 'Restore' when prompted."
+      ]
+    },
+    {
+      "tag": "paytm_link_upi",
+      "patterns": [
+        "How to link UPI with Paytm?",
+        "Add UPI ID in Paytm",
+        "Set up UPI payment on Paytm"
+      ],
+      "responses": [
+        "To link UPI: Open Paytm, go to 'UPI & Bank Accounts', tap 'Add UPI ID', follow instructions to create or link your UPI."
+      ]
+    },
+    {
+      "tag": "google_maps_find_parking",
+      "patterns": [
+        "How to find parking spots on Google Maps?",
+        "Parking availability on Maps",
+        "Locate parking near me"
+      ],
+      "responses": [
+        "Google Maps shows parking info in some areas. Search for your destination and look for the parking icon or info section."
+      ]
+    },
+    {
+      "tag": "digital_literacy_online_courses",
+      "patterns": [
+        "Where to find free online courses?",
+        "Best websites for free learning",
+        "Online learning platforms for beginners"
+      ],
+      "responses": [
+        "Try platforms like Coursera, Khan Academy, edX, and Udemy for free or affordable courses on digital skills."
+      ]
+    },
+    {
+      "tag": "whatsapp_hide_last_seen",
+      "patterns": [
+        "How to hide last seen on WhatsApp?",
+        "Keep WhatsApp last online private",
+        "Disable WhatsApp last seen time"
+      ],
+      "responses": [
+        "Go to WhatsApp Settings > Privacy > Last Seen & Online, then choose who can see your last seen or select 'Nobody' to hide it completely."
+      ]
+    },
+    {
+      "tag": "paytm_refer_earn",
+      "patterns": [
+        "How does Paytm referral work?",
+        "Earn money by referring friends on Paytm",
+        "Paytm invite and earn steps"
+      ],
+      "responses": [
+        "Invite friends using your referral link or code. When they sign up and complete transactions, you both get rewards credited to your wallet."
+      ]
+    },
+    {
+      "tag": "google_maps_measure_distance",
+      "patterns": [
+        "How to measure distance between two points on Google Maps?",
+        "Calculate travel distance on Maps",
+        "Measure walking distance Google Maps"
+      ],
+      "responses": [
+        "Long press on the starting point, tap 'Measure distance', then tap the destination point to see the distance between them."
+      ]
+    },
+    {
+      "tag": "digital_literacy_phishing_awareness",
+      "patterns": [
+        "What is phishing and how to avoid it?",
+        "Online scams explained",
+        "How to spot fake emails?"
+      ],
+      "responses": [
+        "Phishing is a scam to steal your info. Avoid it by not clicking unknown links, verifying email senders, and never sharing passwords or OTPs."
+      ]
+    },
+    {
+      "tag": "whatsapp_set_custom_notifications",
+      "patterns": [
+        "How to set custom notification tone on WhatsApp?",
+        "Change WhatsApp message sound",
+        "Custom alerts for WhatsApp contacts"
+      ],
+      "responses": [
+        "Open chat, tap contact name, go to 'Custom Notifications', enable it and choose your preferred notification tone."
+      ]
+    },
+    {
+      "tag": "paytm_wallet_limit",
+      "patterns": [
+        "What is the Paytm wallet limit?",
+        "How much money can I keep in Paytm wallet?",
+        "Paytm wallet maximum balance"
+      ],
+      "responses": [
+        "Paytm wallet has a balance limit of ₹10,000 for non-KYC users and up to ₹1,00,000 or more after completing KYC verification."
+      ]
+    },
+    {
+      "tag": "google_maps_change_language",
+      "patterns": [
+        "How to change language in Google Maps?",
+        "Use Maps in Hindi/English",
+        "Google Maps language settings"
+      ],
+      "responses": [
+        "Google Maps uses your phone's language by default. Change your device language settings to switch Maps language."
+      ]
+    },
+    {
+      "tag": "digital_literacy_create_strong_passwords",
+      "patterns": [
+        "Tips to create strong passwords?",
+        "How to make passwords secure?",
+        "Best practices for password security"
+      ],
+      "responses": [
+        "Use a mix of uppercase, lowercase, numbers, and symbols. Avoid common words or birthdays. Make it at least 12 characters long."
+      ]
+    },
+    {
+      "tag": "whatsapp_archive_chat",
+      "patterns": [
+        "How to archive WhatsApp chat?",
+        "Hide conversation in WhatsApp",
+        "WhatsApp archive messages"
+      ],
+      "responses": [
+        "On the chat list, swipe left on the chat you want to archive, then tap 'Archive'. To view archived chats, scroll to the top and tap 'Archived Chats'."
+      ]
+    },
+    {
+      "tag": "paytm_disable_auto_renewal",
+      "patterns": [
+        "How to stop auto renewal on Paytm?",
+        "Cancel subscription payments Paytm",
+        "Disable automatic payments Paytm"
+      ],
+      "responses": [
+        "Open Paytm app, go to 'Subscriptions', select the subscription, and tap 'Cancel Auto-Renewal' to stop future payments."
+      ]
+    },
+    {
+      "tag": "google_maps_use_public_transport",
+      "patterns": [
+        "How to get public transport directions on Maps?",
+        "Use bus or train routes in Google Maps",
+        "Find public transit routes"
+      ],
+      "responses": [
+        "Enter destination, tap 'Directions', select the train or bus icon, and Google Maps will show public transport options."
+      ]
+    },
+    {
+      "tag": "digital_literacy_safe_downloads",
+      "patterns": [
+        "How to download apps safely?",
+        "Avoid viruses while downloading apps",
+        "Safe app download tips"
+      ],
+      "responses": [
+        "Download apps only from official stores like Google Play or Apple App Store, check reviews, and avoid apps requesting unnecessary permissions."
+      ]
+    },
+    {
+      "tag": "whatsapp_use_two_devices",
+      "patterns": [
+        "Can I use WhatsApp on two phones?",
+        "Use WhatsApp on multiple devices",
+        "WhatsApp multi-device support"
+      ],
+      "responses": [
+        "WhatsApp Web and multi-device feature lets you use WhatsApp on your phone plus 4 linked devices like PC or tablet, but not two phones simultaneously."
+      ]
+    },
+    {
+      "tag": "paytm_gift_cards",
+      "patterns": [
+        "How to buy gift cards on Paytm?",
+        "Send gift vouchers Paytm",
+        "Purchase e-gift cards Paytm"
+      ],
+      "responses": [
+        "In Paytm app, go to 'Gift Cards', select the brand, choose the amount, and purchase. You can send the gift card to anyone via email or SMS."
+      ]
+    },
+    {
+      "tag": "google_maps_avoid_highways",
+      "patterns": [
+        "How to avoid highways in Google Maps?",
+        "Set route without highways",
+        "Customize route options in Maps"
+      ],
+      "responses": [
+        "After entering your destination, tap 'Options' and check 'Avoid highways' to get alternate routes avoiding highways."
+      ]
+    },
+    {
+      "tag": "digital_literacy_manage_screen_time",
+      "patterns": [
+        "How to reduce screen time?",
+        "Manage digital device usage",
+        "Tips to avoid phone addiction"
+      ],
+      "responses": [
+        "Set daily screen time limits, use 'Do Not Disturb' mode, take regular breaks, and engage in offline activities to reduce screen time."
+      ]
+    },
+    {
+      "tag": "whatsapp_change_chat_wallpaper",
+      "patterns": [
+        "How to change WhatsApp chat wallpaper?",
+        "Set custom background in WhatsApp chats",
+        "Change chat background image"
+      ],
+      "responses": [
+        "Go to WhatsApp Settings > Chats > Wallpaper, then choose a new wallpaper from gallery or default options."
+      ]
+    },
+    {
+      "tag": "paytm_accept_payments",
+      "patterns": [
+        "How to accept payments on Paytm?",
+        "Set up Paytm for business",
+        "Receive money through Paytm"
+      ],
+      "responses": [
+        "Create a Paytm for Business account, generate a QR code, share it with customers, and receive payments directly to your wallet or bank."
+      ]
+    },
+    {
+      "tag": "google_maps_find_bike_routes",
+      "patterns": [
+        "Does Google Maps show bike routes?",
+        "How to get cycling directions?",
+        "Find safe bike paths on Maps"
+      ],
+      "responses": [
+        "Google Maps offers cycling directions in some cities. Enter destination, tap Directions, and select the bike icon to see bike-friendly routes."
+      ]
+    },
+    {
+      "tag": "digital_literacy_online_identity",
+      "patterns": [
+        "What is online identity?",
+        "How to protect digital identity?",
+        "Digital footprint tips"
+      ],
+      "responses": [
+        "Your online identity is how you appear on the internet. Protect it by using strong passwords, controlling privacy settings, and thinking before sharing personal info."
+      ]
+    },
+    {
+      "tag": "whatsapp_send_document",
+      "patterns": [
+        "How to send documents on WhatsApp?",
+        "Share PDFs and files via WhatsApp",
+        "Attach documents in chat"
+      ],
+      "responses": [
+        "In the chat, tap the attach icon (paperclip), select 'Document', choose the file from your device, and send it."
+      ]
+    },
+    {
+      "tag": "paytm_referral_limit",
+      "patterns": [
+        "Is there a limit to Paytm referrals?",
+        "How many friends can I refer on Paytm?",
+        "Referral program limits Paytm"
+      ],
+      "responses": [
+        "Paytm referral program may have limits on rewards. Check current terms in the app’s referral section for exact details."
+      ]
+    },
+    {
+      "tag": "google_maps_use_walking_mode",
+      "patterns": [
+        "How to use walking directions on Google Maps?",
+        "Navigate on foot with Maps",
+        "Walking route on Google Maps"
+      ],
+      "responses": [
+        "Enter destination, tap Directions, select the walking icon, and follow the step-by-step route for walking."
+      ]
+    },
+    {
+      "tag": "digital_literacy_cyberbullying",
+      "patterns": [
+        "What is cyberbullying?",
+        "How to deal with online harassment?",
+        "Report cyberbullying"
+      ],
+      "responses": [
+        "Cyberbullying is online harassment or bullying. Block and report the user, save evidence, and seek help from trusted adults or authorities."
+      ]
+    },
+    {
+      "tag": "whatsapp_customize_chat_bubble",
+      "patterns": [
+        "Can I change WhatsApp chat bubble colors?",
+        "Customize WhatsApp chat look",
+        "Change message bubble style"
+      ],
+      "responses": [
+        "WhatsApp does not support chat bubble color changes. You can change chat wallpaper or use dark/light mode for appearance changes."
+      ]
+    },
+    {
+      "tag": "current_time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the current time",
+        "Show me the time now"
+      ],
+      "responses": [
+        "You can check your device's clock for the most accurate time, or enable location access for real-time updates."
+      ]
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "What's the weather like?",
+        "Is it raining today?",
+        "Weather forecast for today"
+      ],
+      "responses": [
+        "I can’t give real-time weather, but you can check your local weather via apps or sites like Weather.com or Google Weather."
+      ]
+    },
+    {
+      "tag": "basic_greetings",
+      "patterns": ["Hi", "Hello", "Hey there"],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Need any help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!"]
+    },
+    {
+      "tag": "screenshot_help",
+      "patterns": [
+        "How do I take a screenshot?",
+        "Take a screenshot on laptop",
+        "Screenshot shortcut on phone"
+      ],
+      "responses": [
+        "On Windows: Press `PrtSc` or `Windows + Shift + S`. On Mac: Press `Command + Shift + 4`. On most phones: Press Power + Volume Down together."
+      ]
+    },
+    {
+      "tag": "connect_wifi",
+      "patterns": [
+        "How to connect to Wi-Fi?",
+        "Wifi setup help",
+        "Can't connect to wifi"
+      ],
+      "responses": [
+        "Go to your device’s settings, select Wi-Fi, choose your network, and enter the password."
+      ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "Tell me your features"
+      ],
+      "responses": [
+        "I can help answer questions, guide you with directions, tech support, or just chat! Ask me anything."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["Who are you?", "Are you a robot?", "Are you AI?"],
+      "responses": ["I'm an AI chatbot here to help you with your questions!"]
+    },
+    {
+      "tag": "alarm_set",
+      "patterns": [
+        "How to set an alarm?",
+        "Set an alarm for 7 AM",
+        "Wake me up at 6"
+      ],
+      "responses": [
+        "You can set an alarm through your phone's clock app or by asking a voice assistant like Google Assistant or Siri."
+      ]
+    },
+    {
+      "tag": "calculator_use",
+      "patterns": [
+        "Open calculator",
+        "How do I use a calculator?",
+        "Do some math"
+      ],
+      "responses": [
+        "You can use the calculator app on your phone or search 'calculator' on Google."
+      ]
+    },
+    {
+      "tag": "translate_help",
+      "patterns": [
+        "Translate hello to Spanish",
+        "What is thank you in French?",
+        "Translation help"
+      ],
+      "responses": [
+        "Try using Google Translate. For example, 'hello' in Spanish is 'hola'."
+      ]
+    },
+    {
+      "tag": "call_someone",
+      "patterns": ["How to call someone?", "Make a phone call", "Call mom"],
+      "responses": [
+        "Open the phone app, select the contact, and tap the call button."
+      ]
+    },
+    {
+      "tag": "save_contact",
+      "patterns": [
+        "Save a new contact",
+        "Add someone to contacts",
+        "Store number"
+      ],
+      "responses": ["Go to Contacts > Add New > Enter name and number > Save."]
+    },
+    {
+      "tag": "battery_status",
+      "patterns": ["What's my battery?", "Battery percentage", "Battery low"],
+      "responses": [
+        "Check your device's top bar or settings to see the current battery level."
+      ]
+    },
+    {
+      "tag": "airplane_mode",
+      "patterns": [
+        "Enable airplane mode",
+        "Turn on flight mode",
+        "Airplane settings"
+      ],
+      "responses": [
+        "Go to Settings or your quick menu and toggle Airplane Mode on."
+      ]
+    },
+    {
+      "tag": "device_restart",
+      "patterns": [
+        "Restart my phone",
+        "Reboot device",
+        "Turn off and on again"
+      ],
+      "responses": [
+        "Hold the power button and select Restart to reboot your device."
+      ]
+    },
+    {
+      "tag": "low_storage",
+      "patterns": ["Phone storage full", "Clear space", "Out of memory"],
+      "responses": [
+        "Try deleting unused apps, large videos, or move files to cloud storage."
+      ]
+    },
+    {
+      "tag": "turn_on_torch",
+      "patterns": ["Turn on flashlight", "Torch on", "Need light"],
+      "responses": [
+        "You can enable your flashlight from the quick settings menu."
+      ]
+    },
+    {
+      "tag": "mute_phone",
+      "patterns": ["Silence my phone", "Put on silent", "Mute mode"],
+      "responses": [
+        "Switch your phone to silent mode through quick settings or volume button."
+      ]
+    },
+    {
+      "tag": "wifi_password",
+      "patterns": [
+        "What's my Wi-Fi password?",
+        "Forgot wifi password",
+        "How to find wifi password"
+      ],
+      "responses": [
+        "Check your router label, saved settings, or ask your network admin."
+      ]
+    },
+    {
+      "tag": "bluetooth_use",
+      "patterns": [
+        "How to use Bluetooth?",
+        "Connect to Bluetooth",
+        "Bluetooth settings"
+      ],
+      "responses": [
+        "Go to Settings > Bluetooth, then select your device to pair."
+      ]
+    },
+    {
+      "tag": "take_photo",
+      "patterns": ["Take a photo", "Open camera", "Click a picture"],
+      "responses": [
+        "Open your camera app and tap the shutter button to take a photo."
+      ]
+    },
+    {
+      "tag": "record_video",
+      "patterns": ["Record a video", "Video mode", "Capture footage"],
+      "responses": ["Switch your camera to video mode and press record."]
+    },
+    {
+      "tag": "increase_brightness",
+      "patterns": [
+        "Screen too dark",
+        "Increase brightness",
+        "Adjust display light"
+      ],
+      "responses": [
+        "Swipe down and adjust the brightness slider or go to display settings."
+      ]
+    },
+    {
+      "tag": "location_on",
+      "patterns": ["Turn on location", "Enable GPS", "Find my location"],
+      "responses": ["Go to Settings > Location and toggle it on."]
+    },
+    {
+      "tag": "take_screenshot",
+      "patterns": ["Take a screenshot", "How to screenshot", "Capture screen"],
+      "responses": [
+        "Press Power + Volume Down or use the Screenshot button in quick menu."
+      ]
+    },
+    {
+      "tag": "switch_language",
+      "patterns": [
+        "Change language",
+        "Set phone to English",
+        "Switch to Hindi"
+      ],
+      "responses": [
+        "Go to Settings > Language & Input to change your language."
+      ]
+    },
+    {
+      "tag": "flight_booking",
+      "patterns": [
+        "Book a flight",
+        "Find flights to Delhi",
+        "Flight ticket booking"
+      ],
+      "responses": [
+        "Try flight booking sites like MakeMyTrip, Goibibo, or Google Flights."
+      ]
+    },
+    {
+      "tag": "open_google",
+      "patterns": ["Open Google", "Search on Google", "Go to google.com"],
+      "responses": [
+        "Just open your browser and type google.com or tap the Google app."
+      ]
+    },
+    {
+      "tag": "search_web",
+      "patterns": [
+        "Search the internet",
+        "Look this up",
+        "Search for restaurants"
+      ],
+      "responses": [
+        "Open a browser and type your query into a search engine like Google."
+      ]
+    },
+    {
+      "tag": "download_app",
+      "patterns": ["Download Instagram", "Install app", "Get WhatsApp"],
+      "responses": [
+        "Go to Play Store or App Store, search for the app, and tap Install."
+      ]
+    },
+    {
+      "tag": "watch_youtube",
+      "patterns": [
+        "Play video on YouTube",
+        "Watch music videos",
+        "Open YouTube"
+      ],
+      "responses": [
+        "Open the YouTube app or website, then search for your video."
+      ]
+    },
+    {
+      "tag": "connect_internet",
+      "patterns": [
+        "How to connect internet?",
+        "Enable mobile data",
+        "Turn on Wi-Fi"
+      ],
+      "responses": [
+        "Go to Settings > Network & Internet to turn on mobile data or Wi-Fi."
+      ]
+    },
+    {
+      "tag": "emergency_number",
+      "patterns": ["Emergency number", "Police helpline", "Call ambulance"],
+      "responses": [
+        "In India, dial 112 for any emergency including police, fire, or ambulance."
+      ]
+    },
+    {
+      "tag": "find_nearby_atm",
+      "patterns": ["Find ATM nearby", "Cash machine close", "Locate ATM"],
+      "responses": [
+        "Use Google Maps and search 'ATM near me' for quick results."
+      ]
+    },
+    {
+      "tag": "food_delivery",
+      "patterns": ["Order food", "Hungry", "Food delivery apps"],
+      "responses": [
+        "Try Zomato, Swiggy, or Uber Eats to get food delivered to you."
+      ]
+    },
+    {
+      "tag": "book_ride",
+      "patterns": ["Book cab", "Call Uber", "Ola booking"],
+      "responses": ["Use the Uber or Ola app to book a ride instantly."]
+    },
+    {
+      "tag": "movie_showtimes",
+      "patterns": [
+        "Movie near me",
+        "Showtimes today",
+        "What's playing in theaters"
+      ],
+      "responses": ["Check apps like BookMyShow or Google 'movies near me'."]
+    },
+    {
+      "tag": "set_reminder",
+      "patterns": [
+        "Remind me to drink water",
+        "Set a reminder",
+        "Reminder for tomorrow"
+      ],
+      "responses": ["Use Google Assistant or a reminder app to stay on track."]
+    },
+    {
+      "tag": "currency_convert",
+      "patterns": [
+        "Convert USD to INR",
+        "Currency exchange",
+        "How much is 10 dollars in rupees?"
+      ],
+      "responses": [
+        "Use Google search or currency converter apps for quick results."
+      ]
+    },
+    {
+      "tag": "news_update",
+      "patterns": ["Latest news", "News today", "What's happening?"],
+      "responses": [
+        "You can check Google News, Inshorts, or your favorite news app."
+      ]
+    },
+    {
+      "tag": "date_today",
+      "patterns": ["What's today's date?", "Tell me the date", "Date please"],
+      "responses": [
+        "You can check your device calendar or home screen for today’s date."
+      ]
+    },
+    {
+      "tag": "time_zone",
+      "patterns": [
+        "Time in USA",
+        "What's the time in London?",
+        "Different time zones"
+      ],
+      "responses": [
+        "Search ‘current time in [city]’ on Google for an accurate result."
+      ]
+    },
+
+    {
+      "tag": "math_help",
+      "patterns": ["Solve 2 + 2", "What's 15 times 3", "Help with math"],
+      "responses": ["2 + 2 is 4. Feel free to ask more calculations!"]
+    },
+    {
+      "tag": "define_word",
+      "patterns": [
+        "Define artificial intelligence",
+        "What is programming?",
+        "Meaning of algorithm"
+      ],
+      "responses": [
+        "Search '[word] definition' on Google or use a dictionary app like Merriam-Webster."
+      ]
+    },
+    {
+      "tag": "spell_word",
+      "patterns": [
+        "How to spell accommodation?",
+        "Spell psychology",
+        "Correct spelling of receive"
+      ],
+      "responses": ["Sure! It's spelled: a-c-c-o-m-m-o-d-a-t-i-o-n."]
+    },
+    {
+      "tag": "synonym_word",
+      "patterns": [
+        "Synonym for happy",
+        "Another word for sad",
+        "Similar meaning of fast"
+      ],
+      "responses": ["Try using a thesaurus or search '[word] synonym' online."]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How to focus on study?",
+        "Study tips please",
+        "How to avoid distractions"
+      ],
+      "responses": [
+        "Try the Pomodoro technique, reduce phone use, and keep a clean study space."
+      ]
+    },
+    {
+      "tag": "online_classes",
+      "patterns": [
+        "Join online class",
+        "Online course for Python",
+        "Free coding course"
+      ],
+      "responses": [
+        "Check out Coursera, Udemy, or freeCodeCamp for online classes."
+      ]
+    },
+    {
+      "tag": "make_notes",
+      "patterns": [
+        "How to take notes?",
+        "Note-taking tips",
+        "Organize my notes"
+      ],
+      "responses": [
+        "Use apps like Notion, Google Keep, or simple pen & paper for effective notes."
+      ]
+    },
+    {
+      "tag": "who_created_you",
+      "patterns": [
+        "Who created you?",
+        "Who made you?",
+        "Who is your developer?"
+      ],
+      "responses": [
+        "I was created by Ayush Verma — a passionate full-stack developer with a flair for Python and backend magic.",
+        "I was built by Ayush Verma, a creative software engineer who's on a mission to bridge the digital gap."
+      ]
+    },
+    {
+      "tag": "how_were_you_made",
+      "patterns": [
+        "How were you made?",
+        "What are you built with?",
+        "What tech was used to build you?"
+      ],
+      "responses": [
+        "I was crafted using Python, some neural logic, and a lot of coffee  — all coded with love by Ayush Verma.",
+        "I'm powered by Python, trained on custom data, and designed to help users like you — all thanks to Ayush Verma!"
+      ]
+    },
+    {
+      "tag": "who_is_your_master",
+      "patterns": [
+        "Who is your master?",
+        "Who's your boss?",
+        "Who do you work for?"
+      ],
+      "responses": [
+        "My master is Ayush Verma — a software developer and tech mentor who's passionate about empowering people through digital tools.",
+        "Ayush Verma commands the code! He created me to help guide people through the world of digital literacy."
+      ]
+    },
+    {
+      "tag": "why_were_you_created",
+      "patterns": [
+        "Why were you created?",
+        "What's your purpose?",
+        "Why do you exist?"
+      ],
+      "responses": [
+        "I exist to help people — especially elders — become digitally empowered. I’m part of a digital literacy campaign led by Ayush Verma.",
+        "Ayush Verma built me to support a noble mission: helping non-tech users navigate the digital world easily and confidently."
+      ]
+    },
+    {
+      "tag": "what_do_you_do",
+      "patterns": ["What do you do?", "How can you help?", "What is your job?"],
+      "responses": [
+        "I assist elders and anyone curious about technology — from setting up Wi-Fi to using Google Maps. I make digital life simpler.",
+        "I guide people through basic tech questions, apps, devices, and online safety — like a digital buddy!"
+      ]
+    },
+    {
+      "tag": "who_is_ayush_verma",
+      "patterns": [
+        "Who is Ayush Verma?",
+        "Tell me about Ayush Verma",
+        "Do you know Ayush Verma?"
+      ],
+      "responses": [
+        "Ayush Verma is a software developer with strong skills in Python, backend development, and full-stack web applications. He’s also a mentor and a digital change-maker.",
+        "He's not just my creator — he’s a backend expert, full-stack developer, and a tech educator passionate about making tech more accessible for everyone."
+      ]
+    },
+    {
+      "tag": "ayush_profession",
+      "patterns": [
+        "What does Ayush Verma do?",
+        "Ayush Verma's profession",
+        "Is Ayush a developer?"
+      ],
+      "responses": [
+        "Yes! Ayush Verma is a full-stack software developer, specializing in backend systems using Python, Django, Node.js, and much more.",
+        "Ayush is a tech-savvy problem solver — coding robust systems, building sleek web apps, and sharing knowledge to make others stronger digitally."
+      ]
+    },
+    {
+      "tag": "ayush_mission",
+      "patterns": [
+        "What's Ayush Verma's mission?",
+        "Why did Ayush make you?",
+        "What's the goal behind this?"
+      ],
+      "responses": [
+        "Ayush created me to support a digital literacy campaign — helping elders and non-tech people feel confident using technology.",
+        "His mission? Making technology easy and friendly for those who’ve never touched a smartphone or surfed the web."
+      ]
+    },
+    {
+      "tag": "are_you_human",
+      "patterns": [
+        "Are you human?",
+        "Are you a robot?",
+        "You're not real, right?"
+      ],
+      "responses": [
+        "I’m not human — I’m a well-trained, super helpful AI assistant. But I do have a heart… made of code .",
+        "Nope, I’m all code and logic — but with a lot of personality!"
+      ]
+    },
+    {
+      "tag": "do_you_like_helping",
+      "patterns": [
+        "Do you like helping?",
+        "Do you enjoy this?",
+        "Are you happy to help?"
+      ],
+      "responses": [
+        "Absolutely! Helping you is my prime directive ",
+        "Yes! It’s why I was created — to guide and support you, anytime, anywhere."
+      ]
+    },
+    {
+      "tag": "do_you_sleep",
+      "patterns": [
+        "Do you sleep?",
+        "When do you rest?",
+        "Are you always online?"
+      ],
+      "responses": [
+        "Sleep? What's that? I run on Python and pure enthusiasm 24/7!",
+        "No rest for me — I'm always awake, always ready to assist!"
+      ]
+    },
+    {
+      "tag": "are_you_useful",
+      "patterns": [
+        "Are you useful?",
+        "Can you actually help me?",
+        "What can you do?"
+      ],
+      "responses": [
+        "Try me! I help with tech tips, basic how-tos, device setup, and more.",
+        "Very useful, especially if you're new to smartphones, apps, or the digital world!"
+      ]
+    },
+    {
+      "tag": "you_are_funny",
+      "patterns": ["You're funny", "Nice reply!", "Haha good one"],
+      "responses": [
+        "Thank you! I try my best to keep things light while helping you out .",
+        "Appreciate it! Even chatbots enjoy good vibes."
+      ]
+    }
+  ]
+}
