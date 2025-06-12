@@ -45,7 +45,7 @@ class Chatbox {
 
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
-
+        // https://api.render.com/deploy/srv-d1571jbe5dus739b1k0g?key=OkO-9XmVgb8
         fetch('https://collegetipsdlc.onrender.com/predict', { 
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
