@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # 🌐 Digital Literacy Campaign (DLC) Website – by Ayush Verma
-=======
-# 🌐 Digital Literacy Campaign (DLC) Website – by Ayush Singhaaniya
->>>>>>> 8147d159a062ef755f7c24aa76869a9556bca471
   
 This project was built as part of the **CollegeTips Internship** challenge to design an engaging, accessible, and informative **Digital Literacy Campaign (DLC)** website aimed at empowering **parents and elderly users** to confidently use digital tools!  
 > 🚀 *Built under the CollegeTips Internship Program – by [Ayush Verma](https://github.com/ayushverma2909)*
@@ -80,9 +77,6 @@ Handles user queries, processes them with NLP (`nltk_utils.py`), and returns int
 # 1. Clone the repo
 <<<<<<< HEAD
 git clone https://github.com/ayushverma2909/CollegeTipsDLC.git
-=======
-git clone https://github.com/ayushgithub/DLC_Website_Ayush.git
->>>>>>> 8147d159a062ef755f7c24aa76869a9556bca471
 cd DLC_Website_Ayush
 
 # 2. Setup virtual environment (optional but recommended)
